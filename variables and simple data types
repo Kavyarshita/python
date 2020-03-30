@@ -1,0 +1,11 @@
+sentence=" HE IS 18 YEARS OLD, ISN'T HE? "
+sentence=sentence.strip()
+print(sentence.lower())
+subject="he"
+helping_verb="is"
+age=18
+obj="yeras old"
+print("sentence:\n subject \n helping_verb \n age \n obj")
+print("sentence:\n\t subject \n\t helping_verb \n\t age \n\t obj")
+statement=subject+" "+helping_verb+" "+str(age)+" "+obj+",isn't he?"
+sentence=print(statement)
