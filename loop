@@ -1,0 +1,5 @@
+states=['ap','madhyapradesh','punjab','haryana','karnataka']
+for state in states:
+    print(state)                                            
+    print(state+",it is a state in india")                  
+print("jai hind")                                           
