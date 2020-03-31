@@ -1,0 +1,17 @@
+specialisations=['cardiology','dermatology','opthomology','pediatrics']
+print(specialisations[2])                                                      # accessing elements in alist
+print("I am interseted to do the "+specialisations[0]+" specialisation")       #accessing individual values from a list
+specialisations[1]='oncology'                                                  #modyfying elements in alist
+print(specialisations)
+specialisations.append('dermatology')                                          #adding elements in a list by using append() function
+print(specialisations)
+specialisations.insert(3,'orthopedics')                                        #adding elements in alist by using insert() function
+print(specialisations)
+del specialisations[3]                                                         #removing elements in a lsit by using 'del' function
+print(specialisations)
+popped_specialisation=specialisations.pop(-1)                                  #removing elements in a list by using pop() function (using position in a list)
+print(specialisations)
+print(popped_specialisation)
+diffucult_specialisation='cardiology'                                          #removing an item by value
+specialisations.remove(diffucult_specialisation)
+print(specialisations)
