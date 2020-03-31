@@ -1,0 +1,11 @@
+flowers=['rose','lilly','tulip','sunflower','orchids','dandelion']
+print(len(flowers))                                         #finding length of a list by using len() function
+print("here is the original list")                          #sorting a list temporarly by using sorted() function
+print(flowers)
+print("here is the the sorted list")
+print(sorted(flowers))
+print("here is the reverse order of a list ")               #printing a list in reverse order
+flowers.reverse()
+print(flowers)
+flowers.sort()                                              #sorting a list permenantly with sort() function
+print(flowers)
