@@ -1,0 +1,24 @@
+age=17
+if age>=18:
+    print("he/she is granted to open a new bank account")                   #if-else statement
+else:
+    print("he/she is not granted to open a new bank account")
+print("thank you")
+
+
+transfer_amount=500
+if transfer_amount>100:
+    print("tax on your transfer_amount is Rs.50")                           #if-elif-else
+elif transfer_amount>300:
+    print("tax on your transfer_amount is Rs.75")
+else:
+    print("tax on your transfer_amount is Rs.100")
+
+
+transfer_amount=500
+if transfer_amount>100:
+    print("tax on your transfer_amount is Rs.50")                           #omitting else block
+elif transfer_amount>300:
+    print("tax on your transfer_amount is Rs.75")
+elif tansfer_amount==500:
+    print("tax on your transfer_amount is Rs.100")
