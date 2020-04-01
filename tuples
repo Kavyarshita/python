@@ -1,0 +1,9 @@
+cost_of_books=(100,150,200)
+print(cost_of_books[:])                         #tuples using slice 
+print("here is the original list")
+for cost_of_book in cost_of_books:              #tuples using loop
+    print(cost_of_book)
+cost_of_books=(20,30,65)                        #writing over a tuple
+print("modified in dimensions")
+for cost_of_book in cost_of_books:
+    print(cost_of_book)
