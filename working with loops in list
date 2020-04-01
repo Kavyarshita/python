@@ -1,0 +1,36 @@
+games=['basket ball','volley ball','badminton','table tennis','foot ball','chess','snakeandladder']
+indoor_games=['chess','snakeandladder']
+
+for game in games:
+    if game =='badminton':                                              #using for and if changings case
+        print(game.upper())
+    else:
+        print(game)
+
+        
+for indoor_game in indoor_games:
+    if indoor_game not in games:                                        #checking whether a value is not in a list
+        print(indoor_games+"is very easy than games")
+>>> color='pink'                                                        #conditional tests for equality
+>>> color=='pink'
+True
+>>> roll_no=664                                                         #conditional test for equality in numbers
+>>> roll_no==664
+True
+rollno=632
+>>> rollno<664                                                          #numerical comparisions
+True
+ rollno>678
+False
+>>> rollno>=664
+False
+>>> rollno<=664
+True
+>>> rollno_0=1
+>>> rollno_1=2
+>>> rollno_0<=2 and rollno_1<=2                                         #checking multiple conditions using and
+True
+>>> rollno_0>=2 and rollno_1<=2
+False
+>>> rollno_0>=2 or rollno_1<=2                                          #checking multiple conditions using or
+True
