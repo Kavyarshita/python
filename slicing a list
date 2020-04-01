@@ -1,0 +1,15 @@
+trees=['neem','peepal','aloe vera','banyan']
+print(trees[0:3])                                   #printing from 0th to 2nd elements using slice 
+print(trees[2:])                                    #printing from 3rd element to end of a list using slice
+print(trees[:3])                                    #printing the elements before the 4th in a list using slice 
+print(trees[-1:])                                   #using slice getting last element from a list
+for tree in trees[:2]:                              #for loop using slice 
+    print(tree)
+
+
+
+a=[1,2,3,4,5,6]                 
+b=a[:]                                              #spoying a list using slice
+c=a[:]
+print(b)
+print(c)
