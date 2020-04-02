@@ -1,0 +1,23 @@
+family_1=['lakshmi','ravi','madhu','indu']
+family_2=['lakshmi','sudha','sunitha','seshu']                  #using if in lists 
+for member in family_1:
+    if member in family_2:                              
+        print(member+",is common in both families")                 
+    else:
+        print("not common")
+print("thank you")
+
+
+
+if 'lakshmi' in family_1:                                       #testing multiple conditions
+    print("she is a grandmother of indu")
+if 'ravi' in family_1:
+    print("he is husband of madhu")
+if 'seshu' in family_1:
+    print("he is son of madhu")
+elif 'indu' in family_1:
+    print("she is the daughter of ravi")
+elif 'madhu' in family_1:
+    print("she is w/o of ravi")
+print("thank you")
+
