@@ -1,0 +1,17 @@
+datas=[]
+for no_of_datas in range(0,10):
+    new_data={'name':'meenakshi','rollno':678,'dept':'cse'}
+    datas.append(new_data)
+for data in datas[0:2]:
+    if data['name']=='meenakshi':
+        data['name']='sandhya'
+        data['rollno']=632
+        data['dept']='cse'
+for data in datas[0:7]:
+    print(data)
+print("........")
+topper={'name':'vruchika','rollno':8,'dept':'cse','cgpa':{'sem_1':9,'sem_2':9.3,}}
+for cgpa ,points in topper.items():
+    print("\n vrchunika's cgpa is:"+cgpa)
+for point in points:
+    print("\t"+str(points))
