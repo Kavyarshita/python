@@ -1,0 +1,12 @@
+intial_member={}                                                                             #starting with  an empty dictionary
+intial_member['name']='sandhya'                                                              #adding new key value pairs
+intial_member['rollno']=632
+intial_member['department']='cse'
+intial_member['cgpa']=7.2
+print(intial_member)
+intial_member['department']='computer sciences'                                              #modifying values in a dictionary
+print(intial_member)
+del intial_member['cgpa']                                                                    #removing key_value pairs
+print(intial_member)
+starting_roll_no=intial_member['rollno']                                                     #accessing value in adictionary 
+print(str(starting_roll_no)+",it is the starting rollno of m section.")
